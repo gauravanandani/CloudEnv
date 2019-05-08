@@ -1,0 +1,111 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script>
+function checkpasswd()
+{
+ var a=document.f1.pass.value;
+ var b=document.f1.cpass.value;
+
+if(a!=b || a=="" || b=="")
+ {
+  alert("Enter valid password");
+  return false;
+ }
+}
+
+</script>
+
+</head>
+<body>
+<div class="container">
+<div class="jumbotron">
+
+<form class="form-horizontal" name="f1" action="/cgi-bin/ubuntuvm.py" method="POST" onsubmit="return checkpasswd()">
+<fieldset>
+
+<center><h1>UBUNTU OS</h1></center>
+</div>
+
+<!--
+<div class="container">
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">Email Address</label>  
+  <div class="col-md-4">
+  <input id="email" name="email_id" placeholder="Enter your Email Address" class="form-control input-md" required="" type="email">
+  </div>  
+  </div>
+</div><br/>
+
+
+<div class="container">
+<div class="form-group">
+  <label class="col-md-4 control-label" for="password">Password</label>
+  <div class="col-md-4">
+    <input id="passwd" name="pass" placeholder="Enter your Password" class="form-control input-md" required="" type="password">
+    </div>
+  </div>
+</div><br/>
+
+<div class="container">
+<div class="form-group">
+  <label class="col-md-4 control-label" for="confirmpswd">Confirm Password</label>
+  <div class="col-md-4">
+    <input id="confirmpasswd" name="cpass" placeholder="Enter Password Same as above" class="form-control input-md" required="" type="password">
+    </div>
+  </div>
+</div><br/>
+-->
+
+<div class="container">
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ram">RAM(in MB)</label>  
+  <div class="col-md-4">
+  <select id="ram" name="ram"  class="form-control input-md">
+	<option>1024</option>
+	<option>2048</option>
+  </select>
+  </div>  
+  </div>
+</div><br/>
+
+<div class="container">
+<div class="form-group">
+  <label class="col-md-4 control-label" for="cpu">CPU CORE</label>  
+  <div class="col-md-4">
+  <select id="cpu" name="cpu"  class="form-control input-md">
+	<option>1</option>
+	<option>2</option>
+  </select>
+  </div>  
+  </div>
+</div><br/><br/>
+
+
+<div class="container">
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <input type="submit" id="submit" value="Submit" class="btn btn-primary">
+  </div>
+</div>
+</div>
+</div>
+</fieldset>
+</form>
+
+<!--
+<br/><br/>
+<div class="container">
+<div class="form-group">
+  <label class="col-md-4 control-label" for="cpu">Existing Users Click here</label>  
+  <div class="col-md-4">
+	<a href="existubuntu.html">Click here</a>
+  </div>  
+  </div>
+</div><br/><br/>
+-->
+
+
+</body>
+</html>

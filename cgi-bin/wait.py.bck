@@ -1,0 +1,106 @@
+#!/usr/bin/python3.6
+
+print("Content-Type:text/html")
+print("")
+
+f=open("files/check","r")
+i=f.read()
+
+
+
+print("Please Wait...")
+print("<meta http-equiv=refresh content=5;url=http://127.0.0.1:"+str(i)+"/>")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+
+print("Content-Type:text/html")
+print("")
+web=cgi.FieldStorage()
+
+email=web.getvalue('email_id')
+password=web.getvalue('pass')
+#email='abc@gmail.com'
+#password='123'
+
+
+conn=mariadb.connect(user='root', password='redhat', database='cloudvm')
+cursor=conn.cursor()
+
+cursor.execute("select id,name from inc where name='"+str(email)+"' and password='"+str(password)+"'")
+a=cursor.fetchall()
+conn.close()
+x=a[0][0]
+
+
+
+
+print(
+
+<form action=controller.py method='POST'>
+PowerUp<input type=radio name='control' value='pu'>
+PowerOff<input type=radio name='control' value='po'>
+Restart<input type=radio name='control' value='rs'>
+<br/>
+<br/><br/>
+<input type=submit value=Submit>
+)
+
+#exec(open('controller.py').read())
+
+
+try:
+	if(email==a[0][1]):
+		print("hello"+str(a[0][0])+"")
+		os.system("sudo virsh start redhat"+str(a[0][0])+"")
+		time.sleep(2)
+		print ("<meta http-equiv=refresh content=0;url=http://192.168.42.192:"+str(a[0][0])+" />")
+except: 
+	print("user not found")			
+
+
+
+
+	print (s)
+		if(s!=0):
+			print("<script>")
+			print("alert('OS already On');")
+			print("</script>")
+			print ("<meta http-equiv=refresh content=0;url=http://192.168.42.192:"+str(a[0][0])+" />")
+		else:
+			print("Content-Type: text/html")
+			print ("<meta http-equiv=refresh content=2;url=http://192.168.42.192:"+str(a[0][0])+" />")
+else:
+	print("<script>")
+	print("alert('User does not Exist');")
+	print("</script>")
+	print ("<meta http-equiv=refresh content=0; url=/redhatvm.html />")
+'''
+

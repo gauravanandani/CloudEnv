@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SignUp Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script>
+
+
+function check() {
+  if (document.getElementById('password').value != document.getElementById('confirm_password').value) {
+     document.getElementById('message').style.color = 'red';
+    document.getElementById('message').innerHTML = 'Password not matching';
+    return false;
+  
+}
+  else{
+    document.getElementById('message').innerHTML = '';
+}
+}
+</script>
+<!-- Custom Theme files -->
+<link href="lgcss/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //web font -->
+
+<!-- Favicon -->
+        <link href="img/favicon.ico" rel="shortcut icon"/>
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/magnific-popup.css"/>
+        <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/animate.css"/>
+
+</head>
+<body>
+
+<!-- Header section -->
+	<header class="header-section">
+		<div class="container">
+			<h4>
+			<a href="index.html">
+			Cloud Env.
+			</a>
+			</h4>
+			<!-- Switch button -->
+			<div class="nav-switch">
+				<div class="ns-bar"></div>
+			</div>
+			<div class="header-right">
+                                <ul class="main-menu">
+                                        <li class="active"><a href="index.html" class="site-btn sb-c1">HOME</a></li>
+                                        <li><a href="#"class="site-btn sb-c2">Support</a></li>
+                                        <li><a href="login.html"class="site-btn sb-c3">LOGIN</a></li>
+                                </ul>
+                        </div>
+
+		</div>
+	</header>
+	<!-- Header section end -->	
+<br/><br/><br/><br/><br/><br/><br/>
+<!-- main -->
+	<div class="main-w3layouts wrapper">
+		<h1>SignUp Now</h1>
+		<div class="main-agileinfo">
+			<div class="agileits-top">
+				<form action="/cgi-bin/signup.py" method="post" name="f1" onsubmit='check();'>
+					<input class="text" type="text" name="name" placeholder="Username" required="">
+					<input class="text email" type="email" name="email" placeholder="Email" required="">
+					<input class="text" type="password" name="password" id="password" placeholder="Password" required="" onkeyup='check();'>
+					<input class="text w3lpass" type="password" id="confirm_password" placeholder="Confirm Password" required="" onkeyup='check();'>
+					<span id="message"></span>
+					<div class="wthree-text">
+						<label class="anim">
+							<input type="checkbox" class="checkbox" required="">
+							<span>I Agree To The Terms & Conditions</span>
+						</label>
+						<div class="clear"> </div>
+					</div>
+					<input type="submit" id="clickme"  value="SIGNUP">
+				</form>
+				<p>Already have an Account? <a href="login.html"> Login Now!</a></p>
+			</div>
+		</div>
+		<ul class="colorlib-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<!-- //main -->
+</body>
+</html>

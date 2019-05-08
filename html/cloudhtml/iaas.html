@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>
+</title>
+<style language="html/css">
+</style>
+</head>
+<body>
+<h2>Select Tour Instance</h2>
+<h3>we have different types of instance service please select</h3>
+<form action="/cgi-bin/iaas.py" method=GET>
+<table border=2px>
+<tr>
+<th>os</th>
+<th>name</th>
+<th>ram</th>
+<th>Vcpu(Core)</th>
+<th>hdd(GiB)</th>
+<th>port</th>
+<th>Create Instance</th>
+</tr>
+
+<tr>
+<td>ubuntu</td>
+<td><input type=text placeholder="osname" name="imgname"></td>
+<td><select><option name="ram" value=512>512M</option> <option name="ram" value=1024>1024M</option></select></td>
+<td><select name=core value=1><option>1</option> <option name=core value=2>2</option></select></td>
+<td><select><option>20</option></select></td>
+<td><input type=number min=5000 name=port></td>
+<td><input type="submit" name="submit" ></td>
+</tr>
+
+<tr>
+<td>redhat</td>
+<td><input type=text placeholder="osname"></td>
+<td><select><option name="ram" value="512">512M</option> <option name="ram" value="1024">1024M</option></select></td>
+<td><select name=core value=1><option>1</option> <option name=core value=2>2</option></select></td>
+<td><select><option>20</option></select></td>
+<td><select><option>5901</option></select></td>
+<td><input type="submit" name="submit" ></td>
+</tr>
+
+<tr>
+<td>Windows 10</td>
+<td><input type=text placeholder="osname"></td>
+<td><select><option name="ram" value="512">512M</option> <option name="ram" value="1024">1024M</option></select></td>
+<td><select name=core value=1><option>1</option> <option name=core value=2>2</option></select></td>
+<td><select><option>20</option></select></td>
+<td><select><option>5901</option></select></td>
+<td><input type="submit" name="submit" ></td>
+</tr>
+
+</form>
+</body>
+</html>

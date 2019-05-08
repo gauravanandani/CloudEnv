@@ -1,0 +1,553 @@
+Usage: 
+    websockify [options] [source_addr:]source_port [target_addr:target_port]
+    websockify [options] [source_addr:]source_port -- WRAP_COMMAND_LINE
+
+websockify: error: Error parsing listen port
+Usage: 
+    websockify [options] [source_addr:]source_port [target_addr:target_port]
+    websockify [options] [source_addr:]source_port -- WRAP_COMMAND_LINE
+
+websockify: error: Error parsing listen port
+Usage: 
+    websockify [options] [source_addr:]source_port [target_addr:target_port]
+    websockify [options] [source_addr:]source_port -- WRAP_COMMAND_LINE
+
+websockify: error: Error parsing listen port
+Usage: 
+    websockify [options] [source_addr:]source_port [target_addr:target_port]
+    websockify [options] [source_addr:]source_port -- WRAP_COMMAND_LINE
+
+websockify: error: Error parsing listen port
+Usage: 
+    websockify [options] [source_addr:]source_port [target_addr:target_port]
+    websockify [options] [source_addr:]source_port -- WRAP_COMMAND_LINE
+
+websockify: error: Error parsing listen port
+WebSocket server settings:
+  - Listen on :50000
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :50000 to 192.168.42.158:5994
+WebSocket server settings:
+  - Listen on :50000
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :50000
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+192.168.42.105 - - [22/Apr/2019 15:00:23] code 404, message File not found
+192.168.42.105 - - [22/Apr/2019 15:00:23] code 404, message File not found
+192.168.42.105 - - [22/Apr/2019 15:00:28] 192.168.42.105: Plain non-SSL (ws://) WebSocket connection
+192.168.42.105 - - [22/Apr/2019 15:00:28] 192.168.42.105: Version hybi-13, base64: 'False'
+192.168.42.105 - - [22/Apr/2019 15:00:28] 192.168.42.105: Path: '/websockify'
+192.168.42.105 - - [22/Apr/2019 15:00:28] connecting to: 192.168.42.158:5994
+handler exception: [Errno 113] No route to host
+192.168.42.105 - - [22/Apr/2019 15:00:52] 192.168.42.105: Plain non-SSL (ws://) WebSocket connection
+192.168.42.105 - - [22/Apr/2019 15:00:52] 192.168.42.105: Version hybi-13, base64: 'False'
+192.168.42.105 - - [22/Apr/2019 15:00:52] 192.168.42.105: Path: '/websockify'
+192.168.42.105 - - [22/Apr/2019 15:00:52] connecting to: 192.168.42.158:5994
+handler exception: [Errno 113] No route to host
+WebSocket server settings:
+  - Listen on :50008
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :50008 to 192.168.42.105:5994
+WebSocket server settings:
+  - Listen on :50008
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+192.168.42.105 - - [22/Apr/2019 15:33:28] code 404, message File not found
+192.168.42.105 - - [22/Apr/2019 15:33:28] code 404, message File not found
+192.168.42.105 - - [22/Apr/2019 15:33:35] 192.168.42.105: Plain non-SSL (ws://) WebSocket connection
+192.168.42.105 - - [22/Apr/2019 15:33:35] 192.168.42.105: Version hybi-13, base64: 'False'
+192.168.42.105 - - [22/Apr/2019 15:33:35] 192.168.42.105: Path: '/websockify'
+192.168.42.105 - - [22/Apr/2019 15:33:35] connecting to: 192.168.42.105:5994
+handler exception: [Errno 111] Connection refused
+192.168.42.105 - - [22/Apr/2019 15:33:46] 192.168.42.105: Plain non-SSL (ws://) WebSocket connection
+192.168.42.105 - - [22/Apr/2019 15:33:46] 192.168.42.105: Version hybi-13, base64: 'False'
+192.168.42.105 - - [22/Apr/2019 15:33:46] 192.168.42.105: Path: '/websockify'
+192.168.42.105 - - [22/Apr/2019 15:33:46] connecting to: 192.168.42.105:5994
+handler exception: [Errno 111] Connection refused
+WebSocket server settings:
+  - Listen on :50008
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :50008
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :50008
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :50009
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :50009
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :50009
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :50001
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :50001 to 192.168.42.105:5994
+WebSocket server settings:
+  - Listen on :50001
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :50001
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :50003
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :50003 to 192.168.42.105:5994
+WebSocket server settings:
+  - Listen on :50003
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :6
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :6 to 192.168.42.105:5994
+WebSocket server settings:
+  - Listen on :7
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :7 to 192.168.42.105:5994
+WebSocket server settings:
+  - Listen on :50001
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+192.168.42.211 - - [22/Apr/2019 16:55:10] code 404, message File not found
+192.168.42.211 - - [22/Apr/2019 16:55:10] code 404, message File not found
+192.168.42.211 - - [22/Apr/2019 16:55:20] 192.168.42.211: Plain non-SSL (ws://) WebSocket connection
+192.168.42.211 - - [22/Apr/2019 16:55:20] 192.168.42.211: Version hybi-13, base64: 'False'
+192.168.42.211 - - [22/Apr/2019 16:55:20] 192.168.42.211: Path: '/websockify'
+192.168.42.211 - - [22/Apr/2019 16:55:20] connecting to: 192.168.42.105:5994
+handler exception: [Errno 113] No route to host
+In exit
+In exit
+In exit
+In exit
+In exit
+In exit
+WebSocket server settings:
+  - Listen on :50058
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :50058 to 192.168.42.49:50058
+WebSocket server settings:
+  - Listen on :50061
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :50061 to 192.168.42.49:50061
+WebSocket server settings:
+  - Listen on :50063
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :50063 to 192.168.42.49:50063
+In exit
+In exit
+In exit
+WebSocket server settings:
+  - Listen on :50064
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :50064 to 192.168.42.49:50064
+WebSocket server settings:
+  - Listen on :50065
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :50065 to 192.168.42.49:50065
+WebSocket server settings:
+  - Listen on :51001
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :51001 to 192.168.42.90:6001
+WebSocket server settings:
+  - Listen on :51010
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :51010 to 192.168.42.90:6011
+WebSocket server settings:
+  - Listen on :51011
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :51011
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :51012
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :51013
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :51013 to 192.168.42.90:6022
+WebSocket server settings:
+  - Listen on :51015
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :51015
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :51020
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+192.168.42.90 - - [23/Apr/2019 02:39:37] code 404, message File not found
+192.168.42.90 - - [23/Apr/2019 02:39:37] code 404, message File not found
+192.168.42.90 - - [23/Apr/2019 02:39:44] 192.168.42.90: Plain non-SSL (ws://) WebSocket connection
+192.168.42.90 - - [23/Apr/2019 02:39:44] 192.168.42.90: Version hybi-13, base64: 'False'
+192.168.42.90 - - [23/Apr/2019 02:39:44] 192.168.42.90: Path: '/websockify'
+192.168.42.90 - - [23/Apr/2019 02:39:44] connecting to: 192.168.42.90:6001
+handler exception: [Errno 111] Connection refused
+WebSocket server settings:
+  - Listen on :51002
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+WebSocket server settings:
+  - Listen on :51003
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+Traceback (most recent call last):
+  File "/usr/local/bin/websockify", line 11, in <module>
+    load_entry_point('websockify==0.8.0', 'console_scripts', 'websockify')()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocketproxy.py", line 525, in websockify_init
+    server.start_server()
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 973, in start_server
+    tcp_keepintvl=self.tcp_keepintvl)
+  File "/usr/local/lib/python3.6/site-packages/websockify/websocket.py", line 741, in socket
+    sock.bind(addrs[0][4])
+OSError: [Errno 98] Address already in use
+In exit
+In exit
+In exit
+In exit
+In exit
+WebSocket server settings:
+  - Listen on :51005
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :51005 to 192.168.42.103:6045
+WebSocket server settings:
+  - Listen on :51006
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :51006 to 192.168.42.103:6046
+In exit
+In exit
+WebSocket server settings:
+  - Listen on :51031
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :51031 to 192.168.10.81:6064
+WebSocket server settings:
+  - Listen on :51032
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :51032 to 192.168.10.136:6065
+In exit
+In exit
+WebSocket server settings:
+  - Listen on :51034
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :51034 to 192.168.42.192:6067
+WebSocket server settings:
+  - Listen on :51035
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :51035 to 192.168.42.192:6068
+WebSocket server settings:
+  - Listen on :51036
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :51036 to 192.168.42.192:6069
+In exit
+In exit
+In exit
+WebSocket server settings:
+  - Listen on :51044
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :51044 to 192.168.42.187:6080
+In exit
+WebSocket server settings:
+  - Listen on :55008
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :55008 to 127.0.0.1:6008
+WebSocket server settings:
+  - Listen on :55009
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :55009 to 127.0.0.1:6009
+In exit
+In exit
+WebSocket server settings:
+  - Listen on :55009
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+  - No SSL/TLS support (no cert file)
+  - proxying from :55009 to 127.0.0.1:6009
+In exit
