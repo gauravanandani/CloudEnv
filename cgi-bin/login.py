@@ -38,7 +38,7 @@ try:
 		print("<script>")
 		print("alert('Welcome "+str(data[0][0])+"...');")
 		print("</script>")
-		print("<meta http-equiv=refresh content=0;url=/cgi-bin/services.py />")
+		print("<meta http-equiv=refresh content=0;url=/services.html />")
 except:
 	print("<script>")
 	print("alert('Invalid Credentials');")

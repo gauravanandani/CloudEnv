@@ -47,7 +47,7 @@ print(
                                         <li class="active"><a href="/index.html" class="site-btn sb-c1">HOME</a></li>
                                         <li><a href="#"class="site-btn sb-c2">Support</a></li>
                                         <li><a href="/index.html" class="site-btn sb-c3">Logout</a></li>
-                                        <li><a href="/cgi-bin/services.py" class="site-btn sb-c4">Goto Main Page</a></li>
+                                        <li><a href="/services.html" class="site-btn sb-c4">Goto Main Page</a></li>
                                 </ul>
                         </div>
 
@@ -130,19 +130,3 @@ else:
 
 
 
-'''
-	print (s)
-		if(s!=0):
-			print("<script>")
-			print("alert('OS already On');")
-			print("</script>")
-			print ("<meta http-equiv=refresh content=0;url=http://192.168.42.192:"+str(a[0][0])+" />")
-		else:
-			print("Content-Type: text/html")
-			print ("<meta http-equiv=refresh content=2;url=http://192.168.42.192:"+str(a[0][0])+" />")
-else:
-	print("<script>")
-	print("alert('User does not Exist');")
-	print("</script>")
-	print ("<meta http-equiv=refresh content=0; url=/ubuntuvm.html />")
-'''
